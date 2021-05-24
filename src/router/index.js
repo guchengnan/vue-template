@@ -26,6 +26,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "tools" */ "../views/tools/index.vue"),
   },
+  {
+    path: "/request",
+    name: "Request",
+    component: () =>
+      import(/* webpackChunkName: "tools" */ "../views/request/index.vue"),
+  },
 ];
 
 const router = new VueRouter({

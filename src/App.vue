@@ -2,13 +2,16 @@
   <div id="app">
     <ul class="nav nav-tabs">
       <li class="nav-item">
-        <router-link class="nav-link" to="/">首页</router-link>
+        <router-link class="nav-link" to="/home">首页</router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="/standard">规范</router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="/tools">工具</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="nav-link" to="/request">请求</router-link>
       </li>
     </ul>
     <main class="router-view">

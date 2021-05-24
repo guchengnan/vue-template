@@ -1,15 +1,16 @@
-import { request } from './request'
+import { request } from "./request";
 
-// 获取分类
-export const getHomeCategory = () => {
+export const API = {
+  getStudentsInfo() {
     return request({
-        url: '/category'
-    })
-}
-
-// 获取banner图
-export const getHomeBanner = () => {
+      method: "get",
+      url: "/studentsInfo",
+    });
+  },
+  getStudentDetail(id) {
     return request({
-        url: '/pc/get_banner'
-    })
-}
+      method: "get",
+      url: `/studentsInfo/${id}`,
+    });
+  },
+};

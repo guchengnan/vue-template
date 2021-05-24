@@ -1,0 +1,28 @@
+{
+    "studentsInfo": [
+      {
+        "id": 1,
+        "stuNo": 1001,
+        "stuName": "赵老大",
+        "stuGender": 0,
+        "stuPhone": 13500000001,
+        "stuBirthday": "2021/5/1"
+      },
+      {
+        "id": 2,
+        "stuNo": 1002,
+        "stuName": "钱老二",
+        "stuGender": 1,
+        "stuPhone": 13500000002,
+        "stuBirthday": "2021/10/8"
+      },
+      {
+        "id": 3,
+        "stuNo": 1003,
+        "stuName": "孙老三",
+        "stuGender": 1,
+        "stuPhone": 13500000003,
+        "stuBirthday": "2021/7/6"
+      }
+    ]
+}
